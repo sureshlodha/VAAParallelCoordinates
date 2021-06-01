@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <!-- Meta Tag -->
+    <meta charset="utf-8">
+    <title>VAA Parallel Coordinates</title>
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="parallel.css">
+    <!-- D3.js Source -->
+    <script type= "text/javascript" src="https://d3js.org/d3.v3.min.js"></script>       
+  </head>
+  <body>
+    <h1>Viable Coalitions based on Office and Policy Motivations</h1>
+    <script type="text/javascript" src="parallel.js"></script>
+    <form align="center">
+      <input type="radio" id="user" name="toggle" value="1">
+      <label for="user">User</label>
+      <input type="radio" id="party" name="toggle" value="2">
+      <label for="party">Party</label>
+      <input type="radio" id="coalition" name="toggle" value="3">
+      <label for="colaition">Coaltion</label>
+      <input type="radio" id="all" checked="true" name="toggle" value="0">
+      <label for="all">All</label>
+    </form>
+    <form align="center">
+      <input type="checkbox" id="user" name="hide" value="User" checked=true>
+      <label for="user">User</label>
+      <input type="checkbox" id="C" name="hide" value="C" checked=true>
+      <label for="C">C</label>
+      <input type="checkbox" id="A" name="hide" value="A" checked=true>
+      <label for="A">A</label>
+      <input type="checkbox" id="L" name="hide" value="L" checked=true>
+      <label for="L">L</label>
+      <input type="checkbox" id="G" name="hide" value="G" checked=true>
+      <label for="G">G</label>
+      <input type="checkbox" id="S" name="hide" value="S" checked=true>
+      <label for="S">S</label>
+      <input type="checkbox" id="F" name="hide" value="F" checked=true>
+      <label for="F">F</label>
+      <input type="checkbox" id="R" name="hide" value="R" checked=true>
+      <label for="R">R</label>
+      <input type="checkbox" id="CA" name="hide" value="CA" checked=true>
+      <label for="CA">CA</label>
+      <input type="checkbox" id="AGS" name="hide" value="AGS" checked=true>
+      <label for="AGS">AGS</label>
+      <input type="checkbox" id="ALG" name="hide" value="ALG" checked=true>
+      <label for="ALG">ALG</label>
+      <input type="checkbox" id="ALS" name="hide" value="ALS" checked=true>
+      <label for="ALS">ALS</label>
+      <input type="checkbox" id="CGS" name="hide" value="CGS" checked=true>
+      <label for="CGS">CGS</label>
+      <input type="checkbox" id="CLG" name="hide" value="CLG" checked=true>
+      <label for="CLG">CLG</label>
+      <input type="checkbox" id="CLS" name="hide" value="CLS" checked=true>
+      <label for="CLS">CLS</label>
+    </form>
+    <div class='my-legend'>
+    <div class='legend-title'>Party</div>
+    <div class='legend-scale'>
+      <ul class='legend-labels'>
+        <li><span style='background:#eff3ff;'></span>A</li>
+        <li><span style='background:#c6dbef;'></span>C</li>
+        <li><span style='background:#9ecae1;'></span>F</li>
+        <li><span style='background:#6baed6;'></span>L</li>
+        <li><span style='background:#4292c6;'></span>G</li>
+        <li><span style='background:#2171b5;'></span>S</li>
+        <li><span style='background:#084594;'></span>R</li>
+      </ul>
+    </div>
+    <div class='legend-source'></div>
+    </div>
+    <div class='my-legend'>
+    <div class='legend-title'>Coaltion</div>
+    <div class='legend-scale'>
+      <ul class='legend-labels'>
+        <li><span style='background:#edf8fb;'></span>CA</li>
+        <li><span style='background:#ccece6;'></span>CGS</li>
+        <li><span style='background:#99d8c9;'></span>CLS</li>
+        <li><span style='background:#66c2a4;'></span>CLG</li>
+        <li><span style='background:#41ae76;'></span>AGS</li>
+        <li><span style='background:#238b45;'></span>ALS</li>
+        <li><span style='background:#005824;'></span>ALG</li>
+      </ul>
+    </div>
+    <div class='legend-source'></div>
+    </div>
+  </body>
+</html>
