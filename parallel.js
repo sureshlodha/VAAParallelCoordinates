@@ -7,7 +7,7 @@ var x = d3.scale.ordinal().rangePoints([0, width], 1),
     dragging = {};
 
 var line = d3.svg.line(),
-    axis = d3.svg.axis().orient("left"),
+    axis = d3.svg.axis().orient("left").ticks(3),
     background,
     foreground;
 
